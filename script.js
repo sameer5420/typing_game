@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (inputChar !== targetChar) {
         errors++;
         //play error sound
-        new Audio("/error.mp3").play();
+        new Audio("audio/error.mp3").play();
         return false;
       } else {
         return true;
